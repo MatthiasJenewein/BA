@@ -1,0 +1,16 @@
+{
+    "Prompting Stragies": [
+      {
+        "label": "High-Strategy",
+        "prompt": "Imagine you are a highly experienced Senior Java-Developer with a strong background in writing unit tests. Your task is to create unit-tests for the newly added method(s). Think about how your test methods can include normal functionality, edge cases, parametrized and negative tests and then write suitable test(s). Of course, only add special test cases when they make sense. Additionally, aim for a high test coverage of xx% and do not change the original methods."
+      },
+      {
+        "label": "Medium-Strategy",
+        "prompt": "More explicit command “Please create Java unit tests for the new method(s), ensuring you cover normal functionality, edge cases, and negative scenarios. Provide concise code"
+      },
+      {
+        "label": "Low-Strategy",
+        "prompt": "Please write a test that covers the method"
+      }
+    ]
+  }
