@@ -1,5 +1,5 @@
 import * as vscode from 'vscode';
-import prompts from './prompts.json'; // Adjust the path to your prompts.json file
+import prompts from './prompts.json'; 
 
 
 interface PromptItem extends vscode.QuickPickItem {
@@ -38,6 +38,5 @@ export function activate(context: vscode.ExtensionContext) {
 	context.subscriptions.push(disposable);
 }
 
-// This method is called when your extension is deactivated
 export function deactivate() {
 }
