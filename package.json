@@ -9,7 +9,13 @@
   "categories": [
     "Other"
   ],
-  "activationEvents": [],
+  "extensionDependencies": [
+    "GitHub.copilot",      
+    "GitHub.copilot-chat"
+  ],
+  "activationEvents": [
+    "onCommand:extension.insertCopilotPrompt"
+  ],
   "main": "./out/extension.js",
   "contributes": {
     "commands": [
