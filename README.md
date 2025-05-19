@@ -1,4 +1,4 @@
-# ba-prompt-engineering README
+# Extension README
 
 Message from the author: Matthias Jenewein
 
