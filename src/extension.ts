@@ -8,8 +8,6 @@ interface PromptItem extends vscode.QuickPickItem {
 
 export function activate(context: vscode.ExtensionContext) {
 
-	console.log('Congratulations, your extension "ba-prompt-engineering" is now active!');
-
 	const disposable = vscode.commands.registerCommand('extension.insertCopilotPrompt', async () => {
 		vscode.window.showInformationMessage('Hello World from BA_Prompt_Engineering!');
 
